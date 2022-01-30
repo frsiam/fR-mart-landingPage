@@ -86,5 +86,45 @@ header{
     color: rgb(7, 94, 65);
 }
 
+/* hero section css  */
+.hero-section{
+    padding: 0 20rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.hero-left{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.hero-left h1{
+    width: 40rem;
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-bottom: 4rem;
+    text-transform: capitalize;
+}
+.hero-left p{
+    width: 45rem;
+    margin-bottom: 3rem;
+}
+
+.hero-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-right img{
+    width: 100%;
+}
+
 
 
