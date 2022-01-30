@@ -179,6 +179,53 @@ header{
     margin-top: 1rem;
 }
 
+ /* services section  */
+
+#services{
+    padding: 0 20rem;
+    width: 100%;
+    height: 100%;
+}
+#services h1{
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5rem;
+    justify-items: center;
+    margin-bottom: 30rem;
+}
+.service{
+    width: 80%;
+}
+
+.service img{
+    width: 50%;
+    height: 40%;
+    display: flex;
+    margin-left: 6rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.service h3{
+    /* text-align: center; */
+    text-transform: capitalize;
+    line-height: 5rem;
+    text-align: center;
+}
+.service p{
+    text-align: center;
+    line-height: 3rem;
+}
+
+
 /* footer css */
 
 footer{
@@ -190,6 +237,3 @@ footer{
     align-items: center;
     background-color: #efefef;
 }
-
-
-
